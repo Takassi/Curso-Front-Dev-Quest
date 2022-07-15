@@ -1,0 +1,94 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    background: url('../img/bg-desktop.svg') hsl(257, 40%, 49%) center center no-repeat;
+    background-position: left;
+    background-size: cover;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main {
+    display: flex;
+}
+
+header .logo img {
+    width: 220px;
+    margin-bottom: 90px;
+}
+
+.info {
+    margin-left: 40px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.info .title {
+    font-weight: 600;
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.info .text {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.info .btn-register a {
+    text-decoration: none;
+    padding: 20px;
+    color: #674baf;
+    background-color: #fff;
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 0, 0, 0.25) 0px 6px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.info .btn-register:hover a {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons a .fab {
+    color: #fff;
+    font-size: 1.6rem;
+    border: 1.2px solid;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.icons a:hover .fab {
+    color: hsl(300, 69%, 71%);
+}
