@@ -1,0 +1,115 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.carrossel{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.carrossel .slider{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.carrossel .seta.voltar, .seta.avancar {
+   position: absolute; 
+   z-index: 1;
+   padding: 20px;
+}
+
+.carrossel .seta.avancar{
+    right: 0;
+}
+
+.rosas{
+    background-image: url(../images/rosas.png);
+}
+
+.flores{
+    background-image: url(../images/flores.png);
+}
+
+.montanha{
+    background-image: url(../images/montanhas.png);
+}
+
+.lago{
+    background-image: url(../images/lagos.png) ;
+   
+}
+
+.carrossel .slider .info{
+    background-color: white;
+    max-width: 620px;
+    padding: 65px 60px;
+    border-radius: 10px;
+    margin-left: 180px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.carrossel .slider .info .title{
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.carrossel .slider .info p{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    line-height: 3.5rem;
+}
+
+.carrossel .slider .info .link{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.carrossel .slider .info .link.vermelho{
+    color: #C50000;
+}
+
+.carrossel .slider .info .link.amarelo{
+    color: #D9DD10;
+}
+
+.carrossel .slider .info .link.marrom{
+    color: #A63A17;
+}
+
+.carrossel .slider .info .link.azul{
+    color: #10ACDD;
+}
+
+.slider.aberto{
+   opacity: 1;
+}
+
+.desabilitar-seta{
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
