@@ -1,0 +1,50 @@
+html {
+    font-size: 62.2%;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+     font-weight: 400;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.menu li a {
+    padding: 1rem 0.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover{
+    background-color: #5bc241;
+    color: #FFFFFF;
+}
+
+.menu li a.btn{
+    background-color: #5bc241;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    padding: 1rem 2rem;
+}

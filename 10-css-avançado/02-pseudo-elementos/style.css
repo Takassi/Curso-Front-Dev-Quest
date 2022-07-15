@@ -1,0 +1,33 @@
+/* seletor::pseudo-elemento{
+    propriedade; valor;
+} */
+
+.first-letter::first-letter{
+    color: blue;
+}
+
+.first-line::first-line{
+    color: coral;
+}
+
+.first-line::first-letter{
+    color: green;
+}
+
+li::marker{
+    color: red;
+    font-size: 40px;
+}
+
+.before::before{
+    content: "";
+    background: url(Dani.logo.png) center center no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.after::after {
+    content: url(Dani.logo.png);
+}
+
