@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+h2 {
+    margin: 10px;
+    color: #000000;
+}
+
+.oferta-vestuario {
+    background-color: #bb86fc;
+}
+
+.oferta-eletro-moveis {
+    background-color: #00c4b4;
+}
+
+td {
+    background-color: #424250;
+    height: 45px;
+    padding: 10px;
+}
+
+th {
+    height: 45px;
+    padding: 10px;
+}
